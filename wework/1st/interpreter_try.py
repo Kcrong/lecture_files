@@ -46,6 +46,12 @@ def main():  # this is function
             print('I hit the tree %d' % hit)
             hit = hit + 1
         print('The tree fell down!!')
+        
+    # for - loop
+    def with_for_loop():
+        for i in range(10):
+            print('Hit %d times' % (i+1))
+        print('The tree fell down!!')
 
 
 if __name__ == '__main__':  # trick for execute like main
